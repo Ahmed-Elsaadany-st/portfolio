@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #0a0f1f; /* dark navy background */
-            color: #ccd6f6; /* light text */
+            background-color: #0a0f1f;
+            /* dark navy background */
+            color: #ccd6f6;
+            /* light text */
         }
 
         header {
@@ -19,7 +22,8 @@
         }
 
         header h1 {
-            color: #64ffda; /* neon blue */
+            color: #64ffda;
+            /* neon blue */
             font-size: 48px;
             margin-bottom: 10px;
         }
@@ -98,81 +102,126 @@
             color: #64ffda;
             text-decoration: none;
         }
+
+        .profile-image {
+            display: block;
+            margin: 20px auto;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #64ffda;
+        }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Ahmed El-Saadany</h1>
-    <p>Back-End Developer | ASP.NET Core | EF Core | Web APIs</p>
-</header>
+    <header>
+        <h1>Ahmed El-Saadany</h1>
+        <p>Backend Developer | Frontend Trainee @ DEPI | .Net & Angular</p>
+        <img src="profile.jpg" alt="Ahmed El-Saadany" class="profile-image">
+    </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate Back-End developer with experience in ASP.NET Core, EF Core, and building full Web APIs.
-        I enjoy solving problems and creating efficient systems for real-world applications.
-    </p>
-</section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-        <ul>
-            <li>C# / .NET Core</li>
-            <li>Entity Framework Core</li>
-            <li>SQL Server</li>
-            <li>ASP.NET MVC & Web API</li>
-            <li>HTML / CSS / JavaScript / Bootstrap</li>
-            <li>Git & GitHub</li>
-            <li>OOP & Design Patterns</li>
-        </ul>
-    </div>
-</section>
-
-<section id="projects">
-    <h2>Projects</h2>
-    <div>
-        <h3>Examination System</h3>
+    <section id="about">
+        <h2>About Me</h2>
         <p>
-            Developed an Examination System including MCQ and True/False question types, answer validation, and result tracking using ASP.NET MVC and SQL Server.
+            I am a passionate Back-End Developer and Frontend Trainee with experience in ASP.NET Core, EF Core, Angular,
+            and building full Web APIs.
+            I enjoy solving problems and creating efficient systems for real-world applications.
         </p>
-        <a class="link-button" href="https://github.com/ahmed-elsaadany/ExaminationSystem" target="_blank">View on GitHub</a>
-    </div>
-    <div>
-        <h3>Hospital Management System</h3>
-        <p>
-            Complete system for managing hospital operations including patients, staff, and appointments using ASP.NET Core and SQL Server.
-        </p>
-        <a class="link-button" href="https://github.com/ahmed-elsaadany/HospitalManagementSystem" target="_blank">View on GitHub</a>
-    </div>
-    <div>
-        <h3>Restaurant Management System</h3>
-        <p>
-            A full restaurant management application covering orders, menu, and user management using ASP.NET Core and EF Core.
-        </p>
-        <a class="link-button" href="https://github.com/ahmed-elsaadany/RestaurantSystem" target="_blank">View on GitHub</a>
-    </div>
-</section>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:ahmed.s.elsaadany2003@gmail.com">ahmedelsaadany@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-elsaadany" target="_blank">linkedin.com/in/ahmed-elsaadany</a></p>
-    <p>GitHub: <a href="https://github.com/ahmed-elsaadany" target="_blank">github.com/ahmed-elsaadany</a></p>
-    <a class="link-button" href="https://github.com/ahmed-elsaadany/portfolio" target="_blank">View Full Portfolio</a>
-</section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>C# / .NET Core</li>
+                <li>Entity Framework Core</li>
+                <li>SQL Server</li>
+                <li>ASP.NET MVC & Web API</li>
+                <li>HTML / CSS / JavaScript / Bootstrap / Angular</li>
+                <li>Git & GitHub</li>
+                <li>OOP & Design Patterns</li>
+            </ul>
+        </div>
+    </section>
+    <section id="courses">
+        <h2>Courses & Certificates</h2>
+        <div>
+            <ul>
+                <li>Route: Back-End Development Course</li>
+                <li>Currently taking Frontend Development course with <strong>Digital Egypt Pioneers (DEPI)</strong>
+                </li>
 
-<footer>
-    <p>&copy; 2025 Ahmed El-Saadany | All Rights Reserved</p>
-</footer>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>E-Commerce API Application</h3>
+            <p>
+                Backend application for e-commerce using ASP.NET Core Web API, EF Core, and SQL Server.
+            </p>
+            <a class="link-button" href="https://github.com/Ahmed-Elsaadany-st/ECommerceAPI_Application"
+                target="_blank">View on GitHub</a>
+        </div>
+        <div>
+            <h3>Examination System</h3>
+            <p>
+                Developed an Examination System including MCQ and True/False question types, answer validation, and
+                result tracking using ASP.NET MVC and SQL Server.
+            </p>
+            <a class="link-button" href="https://github.com/Ahmed-Elsaadany-st/Examination-System-OOP"
+                target="_blank">View on GitHub</a>
+        </div>
+        <div>
+            <h3>Hospital Management System</h3>
+            <p>
+                Complete system for managing hospital operations including patients, staff, and appointments using
+                ASP.NET Core and SQL Server.
+            </p>
+            <a class="link-button" href="https://github.com/Ahmed-Elsaadany-st/MVCHosiptalSystem" target="_blank">View
+                on GitHub</a>
+        </div>
+        <div>
+            <h3>Restaurant Management System</h3>
+            <p>
+                A full restaurant management application covering orders, menu, and user management using ASP.NET Core
+                and EF Core.
+            </p>
+            <a class="link-button" href="https://github.com/Ahmed-Elsaadany-st/RestaurantSystem" target="_blank">View on
+                GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ahmed.s.elsaadany2003@gmail.com">ahmed.s.elsaadany2003@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-el-saadany-8b8595250"
+                target="_blank">linkedin.com/in/ahmed-el-saadany-8b8595250</a></p>
+        <p>GitHub: <a href="https://github.com/Ahmed-Elsaadany-st" target="_blank">github.com/Ahmed-Elsaadany-st</a></p>
+        <p>CV: <a href="https://drive.google.com/file/d/1R0f57WntiOIdAiT_F4gTonhmbJguyVq_/view?usp=sharing"
+                target="_blank">View My CV</a></p>
+        <a class="link-button" href="https://github.com/Ahmed-Elsaadany-st/portfolio" target="_blank">View Full
+            Portfolio</a>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Ahmed El-Saadany | All Rights Reserved</p>
+    </footer>
 
 </body>
+
 </html>
